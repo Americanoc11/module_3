@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body{
+            font-family: "Times New Roman";
+        }
+        #menu{
+            height: 30px;
+            padding: 0;
+            margin: 0;
+            background-color: #000000;
+            border: 1px solid #CDCDCD;
+        }
+        /*định nghĩa tiếp một bộ chọn riêng cho các phần tử trong danh sách:*/
+        #menu ul, #menu li{
+            padding: 0;
+            margin: 0;
+        }
+        #menu li{
+            width: 100px;
+            position: relative;
+            float: left;
+            padding: 0;
+            cursor: pointer;
+            list-style: none;
+            background-color: black;
+        }
+        /*cố định bản dropdown*/
+        #menu li a{
+            width:100px;
+            height: 30px;
+            display: block;
+            text-decoration:none;
+            text-align: center;
+            line-height: 30px;
+            background-color: black;
+            color: white;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+        }
+         /*căn chỉnh bản con*/
+        #menu ul ul li a{
+            width: 200px;
+            text-align: left;
+            padding-left: 10px;
+        }
+         /*tạo position cha, ẩn đi thằng con */
+        #menu ul ul{
+            position: absolute;
+            visibility: hidden;
+            top: 30px;
+            left: 15px;
+        }
+        /*đổi màu khi di chuột vào list cha*/
+        #menu ul li:hover ul{
+            width: 100px;
+            height: 100px;
+            visibility: visible;
+        }
+        /*đổi màu khi di chuột vào list con*/
+
+        #menu li a:hover{
+            background-color: beige;
+        }
+
+    </style>
+</head>
+<body>
+<div id="menu">
+    <ul>
+        <li>
+            <a href="#">Sem 1</a>
+            <ul>
+                <li>
+                    <a href="#">1</a>
+                </li>
+                <li>
+                    <a href="#">2</a>
+                </li>
+                <li>
+                    <a href="#">3</a>
+                </li>
+                <li>
+                    <a href="#">4</a>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <a href="#">Sem 2</a>
+            <ul>
+                <li>
+                    <a href="#">1</a>
+                </li>
+                <li>
+                    <a href="#">2</a>
+                </li>
+                <li>
+                    <a href="#">3</a>
+                </li>
+                <li>
+                    <a href="#">4</a>
+                </li>
+            </ul>
+        </li>
+    </ul>
+</div>
+</body>
+</html>

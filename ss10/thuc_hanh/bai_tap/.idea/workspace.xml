@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="af0e66b5-4d4e-4788-8699-db761a3bfcfd" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../css/bootstrap-grid.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../css/bootstrap-grid.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../css/bootstrap-grid.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../css/bootstrap-grid.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../css/bootstrap-grid.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../css/bootstrap-grid.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../css/bootstrap-reboot.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../css/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../css/bootstrap-reboot.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../css/bootstrap-reboot.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../css/bootstrap-reboot.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../css/bootstrap-reboot.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../css/bootstrap-utilities.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../css/bootstrap-utilities.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../css/bootstrap-utilities.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../css/bootstrap-utilities.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../css/bootstrap-utilities.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../css/bootstrap-utilities.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../css/bootstrap-utilities.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../css/bootstrap-utilities.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../css/bootstrap.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../css/bootstrap.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../css/bootstrap.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../css/bootstrap.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../demo/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../demo/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../demo/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../demo/src/main/java/ss9_tong_quan_ung_dung_web/serverTimeServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../js/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../js/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../js/bootstrap.esm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../js/bootstrap.esm.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../js/bootstrap.esm.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../js/bootstrap.esm.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../js/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../js/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../server_time/src/main/java/com/example/server_time/server_time_servler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thuc_hanh/demo_dictionary/src/main/java/com/AppDictionary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thuc_hanh/demo_thuc_hanh_1/src/main/java/com/example/demo_thuc_hanh_1/CurrencyConverterApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss6_css/thuc_hanh/demo_table/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss6_css/thuc_hanh/demo_table/style_table.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss6_css/thuc_hanh/demo_text_into_css/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss6_css/thuc_hanh/demo_text_into_css/demo_css.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss6_css/thuc_hanh/ex_1_position_dropdown/test_position.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss6_css/thuc_hanh/ex_1_position_dropdown/test_position.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss6_css/thuc_hanh/list_into_css/demo_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss6_css/thuc_hanh/list_into_css/lis1_type_1.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss7/bai_tap/ex_1/create_layout_html5_css.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss7/bai_tap/ex_2/create_layout_rwd.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss7/thuc_hanh/demo_dropdown/column_menu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss7/thuc_hanh/demo_dropdown/demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss7/thuc_hanh/demo_dropdown/demo_dropdown.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss7/thuc_hanh/demo_layout_basic/demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss7/thuc_hanh/demo_layout_basic/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss7/thuc_hanh/demo_layout_div_css/demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss7/thuc_hanh/demo_layout_div_css/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss7/thuc_hanh/demo_media_queries/demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss7/thuc_hanh/demo_media_queries/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss7/thuc_hanh/demo_position_fixed/demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss7/thuc_hanh/demo_position_fixed/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss7/thuc_hanh/row_menu/row_menu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss7/thuc_hanh/use_box_model/use_box_model.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss8_bootstrap/bai_tap/building_landing_page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss8_bootstrap/bai_tap/gallery_bacsic_bootstrap.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss8_bootstrap/thuc_hanh/create_column_menu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss8_bootstrap/thuc_hanh/create_form_login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss8_bootstrap/thuc_hanh/demo-bootstrap.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss8_bootstrap/thuc_hanh/demo_grid_view.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss8_bootstrap/thuc_hanh/demo_nav.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss8_bootstrap/thuc_hanh/test_bootstrap.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss9/bai_tap/app_product_discount_calculator/src/main/java/com/example/app_product_discount_calculator/ProductDiscountCalculatorServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss9/bai_tap/app_product_discount_calculator/src/main/webapp/view/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss9/bai_tap/demo_ss9/src/main/java/com/example/demo_ss9/ProductDiscountCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss9/thuc_hanh/create_caculator/src/main/java/com/example/create_caculator/ConverterServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss9/thuc_hanh/currency_converter_app/src/main/java/com/example/currency_converter_app/ConverserServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss9/thuc_hanh/demo_app_dictionary/src/main/java/com/example/demo_app_dictionary/DictionaryAppServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss9/thuc_hanh/demo_app_dictiornary/src/main/java/AppDictionaryServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../case_study/my_sql_basic_1_5/sql_task1_5.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../../../case_study/my_sql_basic_1_5/sql_task1_5.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../case_study_web/C0223G1-Repo-FE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_erd/bai_tap/ex_2/build_database_sales_manager.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ss2_erd/bai_tap/ex_2/build_database_sales_manager.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../~$-DN CaseStudy Furama Resort Module 3 Database.docx" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="2OVKVbpixvGHnzLJaI6sBm19rtJ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/codegym/module_3/ss10/thuc_hanh/bai_tap",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="af0e66b5-4d4e-4788-8699-db761a3bfcfd" name="Changes" comment="" />
+      <created>1681640333945</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1681640333945</updated>
+      <workItem from="1681640335287" duration="52000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

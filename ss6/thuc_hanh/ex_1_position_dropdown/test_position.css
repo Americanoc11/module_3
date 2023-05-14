@@ -1,0 +1,88 @@
+.wrapper {
+    width: 100%;
+    height: 400px;
+    background-color: black;
+    position: relative;
+    margin: auto;
+}
+
+.boxed {
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    position: absolute;
+    /*-- giữa trái và phải*/
+    /*left: 50%;*/
+    /*right: 50%;*/
+
+    /*--  trên bên trái */
+    /*top: 100px;*/
+    /*left: 100px;*/
+
+    /*-- dưới bên trái*/
+    /*bottom: 10px;*/
+    /*left: 100px;*/
+
+    /*-- trên bên phải*/
+    /*top: 100px;*/
+    /*right: 100px;*/
+    /*transform: translateX(50%);*/
+
+    /*-- dưới bên phải*/
+    /*bottom: 10px;*/
+    /*right: 100px;*/
+
+    /*-- căng chiều ngang*/
+    /*-- trên căng giữa hình*/
+    /*top: 10px;*/
+    /*left: 50%;*/
+    /*transform: translate(-50%);*/
+}
+
+.box21 {
+    z-index: 1;
+}
+
+.box22 {
+    z-index: 2;
+}
+.dropdown {
+    width: 300px;
+    font-size: 18px;
+    position: relative;
+}
+
+
+
+.dropdown-select {
+    width: 100%;
+    height: 40px;
+    display: flex ;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    border: 1px solid;
+    border-radius: 4px;
+    cursor: context-menu; /* Click để hiện bản thao tác*/
+
+
+}
+
+.dropdown-value {
+}
+
+.dropdown-list {
+    border: 1px solid #eee;
+    display: none;
+}
+
+.dropdown-item {
+    top: auto;
+    padding:  20px;
+    border-bottom: 1px solid #333;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.dropdown:hover.dropdown-list{
+    display: block;
+}

@@ -1,0 +1,31 @@
+#header{
+    background-color: #ec962e;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 25px;
+    text-transform: capitalize;
+    position: fixed;
+    top: 0px;
+}
+#main{
+    background-color: blanchedalmond;
+    height: 500px;
+    width: 80%;
+    float: right;
+}
+#sidebar{
+    background-color: blanchedalmond;
+    width: 20%;
+    height: 500px;
+    float: right;
+}
+#footer{
+    background-color:black;
+    width: 100%;
+    height: 100px;
+    clear: both;
+    position: fixed;
+    bottom: 0px;
+}

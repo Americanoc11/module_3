@@ -1,0 +1,8 @@
+@media screen and (max-width: 700px) { /*Khi chiều rộng =700 px header sẽ có màu xanh lam */
+    [class*="col-"]{
+        width: 100px;
+    }
+    .header{
+        background: #cce5ff;
+    }
+}

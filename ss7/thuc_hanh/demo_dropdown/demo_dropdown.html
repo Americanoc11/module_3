@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="demo.css">
+    <style>
+        #menu ul,#menu li,#menu{
+            padding: 0;
+            margin: 0;
+        }
+        #menu li{
+            width: 100px;
+            height: 30px;
+            padding: 0 20px;
+            list-style: none; /*Bỏ đi ký hiệu đánh dấu mỗi phần tử nó */
+            position: relative; /*Cho phép các danh sách con được đặt cạnh phần tử của nó*/
+            background-color: black;
+            line-height: 30px;
+            cursor: pointer;/*Chuyển biểu tượng con trỏ sang hình bàn tay*/
+        }
+        a{
+            text-decoration: none;/*Bỏ dấu gạch chân*/
+            color: white;
+        }
+        #menu ul ul{
+            position: absolute;
+            top: 0;
+            left: 160px;
+            visibility: hidden; /*Thuộc tính làm ẩn đi các danh sách con*/
+        }
+        #menu ul li:hover ul{
+            visibility: visible;
+        }
+    </style>
+</head>
+<body>
+<h3>ACCP i10</h3>
+<div id="menu">
+    <ul>
+        <li>
+            <a href="#">Sem 1</a>
+            <ul>
+                <li>
+                    <a href="#"> 1</a>
+                </li>
+                <li>
+                    <a href="#"> 2</a>
+                </li>
+                <li>
+                    <a href="#"> 3</a>
+                </li>
+                <li>
+                    <a href="#"> 4</a>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <a href="#">Sem 2</a>
+            <ul>
+                <li>
+                    <a href="#"> 1</a>
+                </li>
+                <li>
+                    <a href="#"> 2</a>
+                </li>
+                <li>
+                    <a href="#"> 3</a>
+                </li>
+                <li>
+                    <a href="#"> 4</a>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <a href="#">Sem 3</a>
+            <ul>
+                <li>
+                    <a href="#"> 1</a>
+                </li>
+                <li>
+                    <a href="#"> 2</a>
+                </li>
+                <li>
+                    <a href="#"> 3</a>
+                </li>
+                <li>
+                    <a href="#"> 4</a>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <a href="#">Sem 4</a>
+            <ul>
+                <li>
+                    <a href="#"> 1</a>
+                </li>
+                <li>
+                    <a href="#"> 2</a>
+                </li>
+                <li>
+                    <a href="#"> 3</a>
+                </li>
+                <li>
+                    <a href="#"> 4</a>
+                </li>
+            </ul>
+        </li>
+    </ul>
+</div>
+</body>
+</html>

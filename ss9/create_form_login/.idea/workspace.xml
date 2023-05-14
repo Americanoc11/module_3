@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="09da0f92-6d24-475a-b172-e81719e10794" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../css/bootstrap-grid.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../css/bootstrap-grid.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../css/bootstrap-grid.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../css/bootstrap-grid.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../css/bootstrap-grid.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../css/bootstrap-grid.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../css/bootstrap-reboot.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../css/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../css/bootstrap-reboot.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../css/bootstrap-reboot.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../css/bootstrap-reboot.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../css/bootstrap-reboot.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../css/bootstrap-utilities.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../css/bootstrap-utilities.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../css/bootstrap-utilities.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../css/bootstrap-utilities.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../css/bootstrap-utilities.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../css/bootstrap-utilities.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../css/bootstrap-utilities.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../css/bootstrap-utilities.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../css/bootstrap.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../css/bootstrap.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../css/bootstrap.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../css/bootstrap.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../demo/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../demo/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../demo/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../demo/src/main/java/ss9_tong_quan_ung_dung_web/serverTimeServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../js/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../js/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../js/bootstrap.esm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../js/bootstrap.esm.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../js/bootstrap.esm.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../js/bootstrap.esm.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../js/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../js/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../server_time/src/main/java/com/example/server_time/server_time_servler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss6_css/thuc_hanh/demo_table/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss6_css/thuc_hanh/demo_table/style_table.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss6_css/thuc_hanh/demo_text_into_css/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss6_css/thuc_hanh/demo_text_into_css/demo_css.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss6_css/thuc_hanh/ex_1_position_dropdown/test_position.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss6_css/thuc_hanh/ex_1_position_dropdown/test_position.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss6_css/thuc_hanh/list_into_css/demo_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss6_css/thuc_hanh/list_into_css/lis1_type_1.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss7/bai_tap/ex_1/create_layout_html5_css.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss7/bai_tap/ex_2/create_layout_rwd.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss7/thuc_hanh/demo_dropdown/column_menu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss7/thuc_hanh/demo_dropdown/demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss7/thuc_hanh/demo_dropdown/demo_dropdown.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss7/thuc_hanh/demo_layout_basic/demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss7/thuc_hanh/demo_layout_basic/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss7/thuc_hanh/demo_layout_div_css/demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss7/thuc_hanh/demo_layout_div_css/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss7/thuc_hanh/demo_media_queries/demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss7/thuc_hanh/demo_media_queries/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss7/thuc_hanh/demo_position_fixed/demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss7/thuc_hanh/demo_position_fixed/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss7/thuc_hanh/row_menu/row_menu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss7/thuc_hanh/use_box_model/use_box_model.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss8_bootstrap/bai_tap/building_landing_page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss8_bootstrap/bai_tap/gallery_bacsic_bootstrap.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss8_bootstrap/thuc_hanh/create_column_menu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss8_bootstrap/thuc_hanh/create_form_login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss8_bootstrap/thuc_hanh/demo-bootstrap.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss8_bootstrap/thuc_hanh/demo_grid_view.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss8_bootstrap/thuc_hanh/demo_nav.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss8_bootstrap/thuc_hanh/test_bootstrap.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_web/C0223G1-Repo-FE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss2_erd/bai_tap/ex_2/build_database_sales_manager.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss2_erd/bai_tap/ex_2/build_database_sales_manager.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../~$-DN CaseStudy Furama Resort Module 3 Database.docx" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2ODu1CydHW3xVc6kDlPOH9G7DQY" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Tomcat 9.0.733" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.733" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="hot-swap-classes" />
+      <deployment>
+        <artifact name="Gradle : com.example : create_form_login-1.0-SNAPSHOT.war">
+          <settings>
+            <option name="CONTEXT_PATH" value="" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="6cfa7338-24eb-4d63-94f3-5e974c993a67" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="61062" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Gradle : com.example : create_form_login-1.0-SNAPSHOT.war" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="09da0f92-6d24-475a-b172-e81719e10794" name="Changes" comment="" />
+      <created>1681107261748</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1681107261748</updated>
+      <workItem from="1681107262898" duration="638000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
