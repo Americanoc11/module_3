@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../../css/bootstrap.css">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+        [class*='col-'] {
+            /*float: left;*/
+            padding: 15px;
+        }
+
+        .header {
+            background-color: #9933cc;
+            padding: 15px;
+        }
+        .menu li {
+            padding: 8px;
+            margin-bottom: 7px;
+            background-color: #33b5e5;
+        }
+    </style>
+</head>
+<body>
+<div class="row">
+    <div class="col-12">
+        <h2 class="header">
+            Chania
+        </h2>
+    </div>
+</div>
+<div class="row">
+    <div class="col-3 menu">
+        <div class="container">
+
+            <ul>
+                <li>The Flight</li>
+                <li>The City</li>
+                <li>The Island</li>
+                <li>The Food</li>
+            </ul>
+        </div>
+    </div>
+    <div class="col-9">
+        <div class="container">
+            <h3>The City</h3>
+            <p>
+                Chania is the capital of the Chania region on the
+                island of Crete. The city can be divided in two
+                parts, the old town and the modern city.
+            </p>
+            <p>
+                Resize the browser window to see how the content respond to the resizing.
+            </p>
+        </div>
+    </div>
+</div>
+</body>
+</html>
