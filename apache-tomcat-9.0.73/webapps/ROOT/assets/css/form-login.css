@@ -1,0 +1,238 @@
+*,
+div,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgb(255, 255, 255);
+    color: #A349A4;
+}
+
+.container {
+    min-width: 100%;
+    padding: 0;
+    background: rgb(240, 242, 245);
+    height: 150vh;
+    font-family: SansSerif, Helvetica Neue, Segoe UI, Roboto, Ubuntu;
+}
+
+/* --------------------HEADER-------------------- */
+.header {
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    padding: 10px 5%;
+    position: relative;
+}
+
+.header .logo {
+    width: 100px;
+}
+
+/* --------------------MAIN--------------------- */
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main .form-login {
+    width: 450px;
+    height: 600px;
+    background-color: rgb(255, 255, 255);
+    backdrop-filter: brightness(25%);
+    border-radius: 5px;
+    padding: 60px 68px 40px;
+}
+
+.form-login #login h1 {
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 28px;
+}
+
+#login .username,
+#login .password {
+    outline: 0;
+    color: #1d2129;
+    background: #ffffff;
+    border: 1px solid #dddfe2;
+    border-radius: 6px;
+    height: 50px;
+    line-height: 50px;
+    padding: 8px 20px;
+    margin-bottom: 16px;
+    line-height: 50px;
+}
+
+#login .submit-btn {
+    background: #0055ff;
+    border-radius: 0px;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 500;
+    margin: 24px 0 12px;
+    height: 50px;
+}
+
+#login .modified {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #b3b3b3;
+    font-size: 13px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+#login .modified a {
+    text-decoration: none;
+    color: #b3b3b3;
+}
+
+#login .modified a:hover {
+    text-decoration: underline;
+}
+
+#login .modified a:hover {
+    text-decoration: underline;
+}
+
+#login .login-form-other p:first-child {
+    margin-bottom: 20px;
+    color: #b3b3b3;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.login-form-other #register-btn:hover {
+    cursor: pointer;
+}
+
+#login .login-form-other p:last-child {
+    color: #b3b3b3;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+@media only screen and (max-width: 768px) {
+    .container {
+        background: none;
+    }
+
+    .main .form-login {
+        background: transparent;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .xs {
+        margin: 39px 4em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex: 0 0 auto;
+        width: 85.666667%;
+    }
+
+    .row .xs img {
+        width: 236px;
+        height: 336px;
+    }
+
+    .xs .detail-post {
+        width: 237px;
+        height: 337px;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .small {
+        margin: 37px 0.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex: 0 0 auto;
+        width: 44.666667%;
+    }
+
+    .row .small img {
+        width: 225px;
+        height: 325px;
+    }
+
+    .small .detail-post {
+        width: 226px;
+        height: 326px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .medium {
+        margin: 50px 1.5em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex: 0 0 auto;
+        width: 26.66666667%;
+    }
+
+    .row .medium img {
+        width: 200px;
+        height: 300px;
+    }
+
+    .medium .detail-post {
+        width: 201px;
+        height: 301px;
+    }
+}
+
+@media only screen and (min-width: 996px ) {
+    .large {
+        margin: 50px 1.5em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex: 0 0 auto;
+        width: 19.666667%;
+    }
+
+    .row .large img {
+        width: 215px;
+        height: 308px;
+    }
+
+    .large .detail-post {
+        width: 215px;
+        height: 311px;
+    }
+}
+
+@media only screen and (min-width: 1281px ) {
+    .xl {
+        margin: 50px 1%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex: 0 0 auto;
+        width: 16.66666667%;
+    }
+
+    .row .xl img {
+        width: 215px;
+        height: 308px;
+    }
+
+    .xl .detail-post {
+        width: 215px;
+        height: 311px;
+    }
+}
+
+.row {
+    --bs-gutter-x: 5.5rem;
+}

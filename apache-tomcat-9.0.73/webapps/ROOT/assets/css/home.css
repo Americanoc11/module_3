@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.fs-24 {
+    font-size: 24px;
+}
+
+body {
+    color: #292929;
+    font-family: SansSerif, Helvetica Neue, Segoe UI, Roboto, Ubuntu;
+}
+
+/*---------------------HEADER------------------------*/
+.navbar {
+    padding-bottom: 0;
+    padding-top: 0;
+}
+.navbar-collapse{
+    font-size: 18px;
+}
+.header{
+    border-bottom: 1px solid #eee;
+}
+.form-search-header button{
+    border: none;
+    background-color: #fff;
+    color: silver;
+}
+.form-search-header #search {
+    width: 400px;
+    height: 35px;
+    border: none;
+    padding-left: 10px;
+}
+.account-user {
+    text-align: center;
+    padding: 20px 0;
+
+}
+
+.dropdown .btn i {
+    color: silver;
+    position: absolute;
+    font-size: 20px;
+}
+.dropdown-menu li:hover {
+    background-color: #1873eb;
+    color: white;
+}
+.options {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.menu-content {
+    width: 90%;
+    font-size: 18px;
+}
+.menu-content button {
+    border: none;
+    background-color: #fff;
+    width: 100%;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+    padding: 10px 0;
+}
+.menu-content button a {
+    text-decoration: none;
+    color: #1d2129;
+}
+.menu-content button a i {
+    margin-right: 10px;
+}
+.p-3 span {
+    font-size: 15px;
+    color: #b3b3b3;
+}
+
+
+/*----------------CONTENT--------------------*/
+.title-post {
+    text-align: center;
+    text-size-adjust: inherit;
+    font-size: 17px;
+}
+/*----------------SWIPER SLIDER--------------*/
+.content {
+    display: flex;
+    height: 100%;
+    margin: 0px;
+    flex-direction: column;
+}
+
+.post {
+    width: 100%;
+    color: black;
+    margin-top: 45px;
+    max-width: calc(100% - 96px);
+    padding: 0 40px 0 20px;
+}
+
+.postItem {
+    width: 620px;
+    height: 180px;
+    border: 2px solid #e8e8e8;
+    border-radius: 16px;
+    padding: 24px;
+    background-color: #ffffff;
+    margin-top: 16px;
+}
+
+.contentPost{
+    font-size: 15px;
+}
+
+. swiper-container {
+    width: 1300px;
+    height: 100%;
+}
+
+swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px !important;
+}
+
+swiper-slide .detail-post {
+    display: none;
+    position: absolute;
+    height: 100%;
+    width: 200px;
+    background: rgba(248, 248, 248, 0.51);
+    z-index: 1;
+    color: #ffffff;
+    text-align: start;
+    padding: 10px 20px;
+}
+
+swiper-slide:hover .detail-post {
+    display: block;
+    cursor: pointer;
+}
+/*---------------FOOTER------------------*/
+
+.link {
+    padding: 50px;
+}
+
+
+.footer {
+    background-color: #eee;
+}
+.sub-links ul {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 20px;
+    text-align: center;
+}
+
+.sub-links a {
+    color: rgba(45, 158, 253, 0.87);
+    text-decoration: none;
+}
+
+.sub-links a:hover {
+    color: rgb(19, 18, 18);
+    text-decoration: underline;
+}
+
+.logos a{
+    padding: 10px;
+    margin-left: 108px;
+}
+
+.logo {
+    width: 100px;
+    margin-left: 25px;
+}
+
+.fa-square-facebook:before {
+    color: rgb(59, 89, 152);
+}
+
+.fa-instagram:before {
+    color: rgb(131, 58, 180);
+    margin-left: -150px;
+}
+
+.fa-twitter:before {
+    color:  rgb(29, 161, 242);
+    margin-left: -300px;
+}
+
+.fa-youtube:before {
+    color: rgb(255, 0, 0);
+    margin-left: -450px;
+}
+
+fa-home-user:before, .fa-house-user:before {
+    color: rgba(45, 158, 253, 0.87);
+}
+
+/* FOOTER */
+footer {
+    padding: 20px;
+    text-align: center;
+    color: rgba(45, 158, 253, 0.87);
+    margin: 10px;
+}

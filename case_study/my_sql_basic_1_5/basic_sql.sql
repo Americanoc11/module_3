@@ -6,19 +6,36 @@ select * from customer
 where( name_customer like '%H%' or name_customer like '%T%' or name_customer like '%K%' );
 -- 3.	Hiển thị thông tin của tất cả khách hàng có độ tuổi từ 18 đến 50 tuổi và có địa chỉ ở “Đà Nẵng” hoặc “Quảng Trị”.
 
--- 4.	Đếm xem tương ứng với mỗi khách hàng đã từng đặt phòng bao nhiêu lần. Kết quả hiển thị được sắp xếp tăng dần theo số lần đặt phòng của khách hàng. Chỉ đếm những khách hàng nào có Tên loại khách hàng là “Diamond”.
+select id_customer, name_customer,address, year(current_date())-year(date_of_birth) as 'age'
+from customer 
+where year(current_date())-year(date_of_birth) >18 
+and year(current_date())-year(date_of_birth)<50
+and (address like '%Đà Nẵng' or address like'%Quảng Trị');
 
+-- 4.	Đếm xem tương ứng với mỗi khách hàng đã từng đặt phòng bao nhiêu lần. Kết quả hiển thị được sắp xếp tăng dần theo số lần đặt phòng của khách hàng. Chỉ đếm những khách hàng nào có Tên loại khách hàng là “Diamond”.
+select c.id_customer,c.name_customer,count(c.id_customer)
+from customer c
+join type_customer tc
+on tc.id_type_customer=c.id_type_customer
+join contract ct
+on ct.id_customer=c.id_customer
+join service_furama sf
+on sf.id_service=ct.id_service
+where tc.name_type_customer='Diamond'
+group by c.id_customer;
 
 -- 5.	Hiển thị ma_khach_hang, ho_ten, ten_loai_khach, ma_hop_dong, ten_dich_vu,
 --  ngay_lam_hop_dong, ngay_ket_thuc, tong_tien (Với tổng tiền được tính theo công
 -- thức như sau: Chi Phí Thuê + Số Lượng * Giá, với Số Lượng và Giá là từ bảng dich_vu_di_kem,
 --  hop_dong_chi_tiet) cho tất cả các khách hàng đã từng đặt phòng. (những khách hàng nào chưa
 -- từng đặt phòng cũng phải hiển thị ra).
-select c.id_customer,c.name_customer,tc.name_type_customer,ct.id_contract,sf.name_service,ct.date_start_contract,ct.date_end_contract,rental_cost,(sf.rental_cost+ ifnull(sum(ctd.amount*accs.price),0))
+select c.id_customer,c.name_customer,tc.name_type_customer,ct.id_contract,
+sf.name_service,ct.date_start_contract,ct.date_end_contract,rental_cost,
+(sf.rental_cost+ ifnull(sum(ctd.amount*accs.price),0)) as 'total'
 from customer c
 left join type_customer tc
 on	tc.id_type_customer=c.id_type_customer
-left join contract ct
+ join contract ct
 on	ct.id_customer=c.id_customer
 left join service_furama sf
 on	sf.id_service=ct.id_service
@@ -26,7 +43,8 @@ left join contract_details ctd
 on	ctd.id_contract=ct.id_contract
 left join accompanying_services accs
 on	accs.id_service=ctd.id_service
-group by c.id_customer,ct.id_contract;
+group by c.id_customer,ct.id_contract
+order by c.id_customer;
 
 -- 6.	Hiển thị ma_dich_vu, ten_dich_vu, dien_tich, chi_phi_thue, ten_loai_dich_vu
 --  của tất cả các loại dịch vụ chưa từng được khách hàng thực hiện đặt từ quý 1 của
