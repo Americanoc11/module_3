@@ -3,7 +3,7 @@ use furama;
 -- 2.	Hiển thị thông tin của tất cả nhân viên có trong hệ thống
 -- có tên bắt đầu là một trong các ký tự “H”, “T” hoặc “K” và có tối đa 15 kí tự.
 select * from customer
-where( name_customer like '%H%' or name_customer like '%T%' or name_customer like '%K%' );
+where( name_customer like '%H%' or name_customer like '%T%' or name_customer like '%K%' ) and char_length(name_customer) <=15;
 -- 3.	Hiển thị thông tin của tất cả khách hàng có độ tuổi từ 18 đến 50 tuổi và có địa chỉ ở “Đà Nẵng” hoặc “Quảng Trị”.
 
 select id_customer, name_customer,address, year(current_date())-year(date_of_birth) as 'age'
@@ -76,6 +76,7 @@ where year(ct.date_start_contract)='2021'
 );
 -- 8.	Hiển thị thông tin ho_ten khách hàng có trong hệ thống, với yêu cầu ho_ten không
 -- trùng nhau.Học viên sử dụng theo 3 cách khác nhau để thực hiện yêu cầu trên.
+-- a)
 select c.name_customer
 from customer c
 group by c.name_customer;
@@ -89,6 +90,13 @@ group by c.name_customer;
 end $
 delimiter ;
 call select_all_name();
+-- b)
+select distinct name_customer
+from customer;
+-- c)
+select name_customer from customer
+union
+select name_customer from customer;
 -- 9.	Thực hiện thống kê doanh thu theo tháng, nghĩa là tương ứng với mỗi tháng trong
 -- năm 2021 thì sẽ có bao nhiêu khách hàng thực hiện đặt phòng.
 select month(ct.date_start_contract) as `month`,count(c.id_customer)
@@ -149,14 +157,16 @@ group by ct.id_contract;
 -- 13.	Hiển thị thông tin các Dịch vụ đi kèm được sử dụng nhiều nhất bởi các
 -- Khách hàng đã đặt phòng. (Lưu ý là có thể có nhiều dịch vụ có số lần sử dụng
 -- nhiều như nhau).
-select accs.id_service,accs.name_service,ifnull(sum(ctd.amount),0) as 'amount'
+select accs.id_service,accs.name_service,sum(ctd.amount)
 from accompanying_services accs
 join contract_details ctd
 on ctd.id_service=accs.id_service
 join contract ct
 on ct.id_contract=ctd.id_contract
+join customer c
+on c.id_customer=ct.id_customer
 group by accs.id_service
-having amount>10;
+having sum(ctd.amount) >10; 
 
 -- 14.	Hiển thị thông tin tất cả các Dịch vụ đi kèm chỉ mới được sử dụng một lần
 -- duy nhất. Thông tin hiển thị bao gồm ma_hop_dong, ten_loai_dich_vu, ten_dich_vu_di_kem,
@@ -217,10 +227,19 @@ where id_employee=4; -- (4,5,6,8,9)
 alter table employee 
 add is_delete tinyint(1) default'1';
 set sql_safe_updates=0;
+
 update employee
 set is_delete=0
-where id_employee=4; -- (4,5,6,8,9)
+where id_employee not in(
+select e.id_employee,ct.id_contract
+from employee e
+left join contract ct
+on ct
+
+); -- (4,5,6,8,9)
 set sql_safe_updates=1;
+
+
 select * from employee
 where is_delete=0;
 -- 17.	Cập nhật thông tin những khách hàng có ten_loai_khach từ Platinum lên Diamond,

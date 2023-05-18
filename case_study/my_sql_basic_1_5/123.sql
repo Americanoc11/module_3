@@ -108,8 +108,8 @@ value
 
 create table orders(
 orders_id int primary key auto_increment,
-customer_name varchar(100),
-product_list_id int,
+account_user varchar(100),
+product_id int,
 amount_total int,
 total bigint,
 day_start date,
@@ -119,4 +119,3 @@ status_orders tinyint(1),
 foreign key (phone) references `account` (phone),
 foreign key (email) references `account` (email)
 );
-
