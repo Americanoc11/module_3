@@ -57,25 +57,40 @@
                                 <div class="col-8" id="demo" style=" font-size: 18px">
                                     <div class="p-3" style="margin-top: 21px;">
                                         <h2 class="title">
-                                            <a class="text-decoration-none" href="/home?action=detail&id=${post.getId()}">${post.getTitle()}</a>
+                                            <a class="text-decoration-none"
+                                               href="/home?action=detail&id=${post.getId()}">
+                                                    ${post.getTitle()}
+                                            </a>
                                         </h2>
                                         <div>${post.getAuthor()}</div>
                                         <div class="contentPost">
                                             <c:out value="${fn:substring(post.content,0, 100)}..."/>
                                         </div>
-                                        <span>${post.getPostDate()}</span>
+                                        <span>
+                                                ${post.getPostDate()}
+                                        </span>
                                     </div>
                                     <c:if test="${(sessionScope.account.isAdmin() ? 1: 0) == 1}">
                                         <div class="options">
                                             <div class="dropdown">
-                                                <a class="btn" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                                                <a class="btn" href="#" role="button" id="dropdownMenuLink"
+                                                   data-bs-toggle="dropdown" aria-expanded="false">
                                                     <i class="fa-solid fa-ellipsis-vertical"></i>
                                                 </a>
                                                 <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                                    <div><a class="dropdown-item" href="/home?action=update&id=${post.getId()}">Update</a></div>
-                                                    <div><a onclick="deleteId(${post.getId()}, '${post.getTitle()}')"
+                                                    <div>
+                                                        <a class="dropdown-item"
+                                                           href="/home?action=update&id=${post.getId()}">
+                                                            Update
+                                                        </a>
+                                                    </div>
+                                                    <div>
+                                                        <a onclick="deleteId(${post.getId()}, '${post.getTitle()}')"
                                                            type="button" class="dropdown-item" data-bs-toggle="modal"
-                                                           data-bs-target="#modelId">Delete</a></div>
+                                                           data-bs-target="#modelId">
+                                                            Delete
+                                                        </a>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>

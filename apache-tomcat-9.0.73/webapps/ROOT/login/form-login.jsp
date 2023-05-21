@@ -26,6 +26,7 @@
 </head>
 <body>
 <div class="container">
+    <%--    logo--%>
     <div class="header">
         <nav>
             <nav
@@ -35,6 +36,8 @@
             </nav>
         </nav>
     </div>
+
+    <%--    form-login--%>
     <div class="main">
         <div class="form-login">
             <form id="login" method="post">
@@ -73,7 +76,9 @@
                     <p>
                         Don't have an account?
                         <b id="register-btn" style="color: #1d2129; margin-left: 5px"
-                           onclick="location.href = 'register'">Register</b>
+                           onclick="location.href = '/register'">
+                            Register
+                        </b>
                     </p>
                 </div>
             </form>

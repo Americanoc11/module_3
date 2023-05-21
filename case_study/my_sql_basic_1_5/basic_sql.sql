@@ -171,44 +171,45 @@ having sum(ctd.amount) >10;
 -- 14.	Hiển thị thông tin tất cả các Dịch vụ đi kèm chỉ mới được sử dụng một lần
 -- duy nhất. Thông tin hiển thị bao gồm ma_hop_dong, ten_loai_dich_vu, ten_dich_vu_di_kem,
 -- so_lan_su_dung (được tính dựa trên việc count các ma_dich_vu_di_kem).
+SET sql_mode = 'ONLY_FULL_GROUP_BY';
+ select ct.id_contract,accs.name_service,ts.name_type_service
+ from accompanying_services accs
+ join contract_details ctd
+ on ctd.id_service=accs.id_service
+ join contract ct
+ on ct.id_contract=ctd.id_contract
+ join service_furama sf
+ on sf.id_service=ct.id_service
+ join type_service ts
+ on ts.id_type_service=sf.id_type_service
+ where accs.id_service in (
 
-    
---     select  ct.id_contract,ts.name_type_service,accs.name_service
---     from accompanying_services accs
---     join contract_details ctd
---     on ctd.id_service=accs.id_service
---     join contract ct
---     on ct.id_contract=ctd.id_contract
---     join service_furama sf
---     on sf.id_service=ct.id_contract
---     join type_service ts
---     on ts.id_type_service= sf.id_type_service
---     group by accs.name_service,accs.id_service;
+ select accs.id_service
+ from accompanying_services accs
+ join contract_details ctd
+ on ctd.id_service=accs.id_service
+ join contract ct
+ on ct.id_contract=ctd.id_contract
+ group by accs.id_service
+ having count(accs.id_service) <=1
+ )
+;
     
 -- 15.	Hiển thi thông tin của tất cả nhân viên bao gồm ma_nhan_vien, ho_ten,
 -- ten_trinh_do, ten_bo_phan, so_dien_thoai, dia_chi mới chỉ lập được tối đa 
 -- 3 hợp đồng từ năm 2020 đến 2021.
 
--- select
--- e.id_employee,e.name_employee,qe.name_qualification,
--- pe.name_partscode,e.phone,e.address,count(ct.id_contract)
--- from employee e
--- join qualification_employee qe
--- on qe.id_qualification=e.id_qualification
--- join partscode_employee pe
--- on pe.id_partscode=e.id_partscode
--- join contract ct
--- on ct.id_employee=e.id_employee
--- where count(ct.id_contract) <=3 and (
--- select ct.id_contract
--- from contract ct
--- where year(ct.date_start_contract)='2020' and year(ct.date_start_contract)='2021'
--- )
--- group by e.id_employee
---  ;
+select e.*,count(ct.id_contract)
+from employee e
+join contract ct
+on ct.id_employee=e.id_employee
+where year(ct.date_start_contract) = 2020 or year(ct.date_start_contract)=2021
+group by e.id_employee
+having count(ct.id_contract)<=3; 
 
 -- 16.	Xóa những Nhân viên chưa từng lập được hợp đồng nào từ năm 2019 đến năm 2021.
-
+select id_employee,name_employee from employee
+where is_delete=1;
 select
 e.id_employee,e.name_employee,qe.name_qualification,
 pe.name_partscode,e.phone,e.address,ct.id_contract
@@ -230,34 +231,77 @@ set sql_safe_updates=0;
 
 update employee
 set is_delete=0
-where id_employee not in(
+where id_employee in(
+select id_employee from(
 select e.id_employee,ct.id_contract
 from employee e
 left join contract ct
-on ct
-
+on ct.id_employee=e.id_employee
+where ct.id_contract is null
+)x
 ); -- (4,5,6,8,9)
 set sql_safe_updates=1;
 
 
+select e.id_employee,e.name_employee, ct.date_start_contract
+from employee e
+left join contract ct
+on ct.id_employee=e.id_employee
+where ct.id_contract is null;
 select * from employee
 where is_delete=0;
 -- 17.	Cập nhật thông tin những khách hàng có ten_loai_khach từ Platinum lên Diamond,
 -- chỉ cập nhật những khách hàng đã từng đặt phòng với Tổng Tiền thanh toán trong năm 
 -- 2021 là lớn hơn 10.000.000 VNĐ.
-select c.id_customer, c.name_customer, tc.name_type_customer
+
+select c.id_customer,c.name_customer,tc.name_type_customer,ct.id_contract,
+sf.name_service,ct.date_start_contract,ct.date_end_contract,rental_cost,
+(sf.rental_cost+ ifnull(sum(ctd.amount*accs.price),0)) as 'total'
 from customer c
-join type_customer tc
-on	tc.id_type_customer=c.id_type_customer;
+left join type_customer tc
+on	tc.id_type_customer=c.id_type_customer
+join contract ct
+on	ct.id_customer=c.id_customer
+join service_furama sf
+on	sf.id_service=ct.id_service
+left join contract_details ctd
+on	ctd.id_contract=ct.id_contract
+left join accompanying_services accs
+on	accs.id_service=ctd.id_service
+group by c.id_customer,ct.id_contract
+having total >10000000
+order by c.id_customer;
 
 update customer
 set id_type_customer=1
 where id_customer=10;
 
-
 -- 18.	Xóa những khách hàng có hợp đồng trước năm 2021 (chú ý ràng buộc giữa các bảng).
+alter table customer
+add is_delete tinyint(1) default 1;
 
+update customer 
+set is_delete=0
+where id_customer in (select id_customer 
+					  from
+                      (select c.*,ct.date_start_contract
+						from customer c
+						join contract ct
+						on ct.id_customer=c.id_customer
+						where year(ct.date_start_contract)<2021
+						) x
+);
 -- 19.	Cập nhật giá cho các dịch vụ đi kèm được sử dụng trên 10 lần trong năm 2020 lên gấp đôi.
-
+update accompanying_services
+set price=
+select accs.*,ifnull(sum(ctd.amount),0)
+from accompanying_services accs
+join contract_details ctd
+on ctd.id_service=accs.id_service
+join contract ct
+on ct.id_contract=ctd.id_contract
+where year(ct.date_start_contract)=2020
+group by accs.id_service
+having sum(ctd.amount)>=10;
 -- 20.	Hiển thị thông tin của tất cả các nhân viên và khách hàng có trong hệ thống, thông tin hiển thị bao gồm id (ma_nhan_vien, ma_khach_hang), ho_ten, email, so_dien_thoai, ngay_sinh, dia_chi.
  
