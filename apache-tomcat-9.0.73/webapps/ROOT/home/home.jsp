@@ -33,15 +33,36 @@
             <c:choose>
                 <c:when test="${(sessionScope.account.isAdmin() ? 1: 0) == 1}">
                     <div class="menu-content">
-                        <button type="submit"><a href="/home?action=create"><i class="fa-solid fa-pen-to-square"></i>Bài viết mới</a></button>
-                        <button type="submit"><a href="#"><i class="fa-solid fa-bell"></i>Thông báo</a></button>
-                        <button type="submit"><a href="#"><i class="fa-sharp fa-regular fa-comment"></i>Phản hồi</a></button>
+                        <button type="submit">
+                            <a href="/home?action=create">
+                                <i class="fa-solid fa-pen-to-square">
+                                </i>
+                                Bài viết mới
+                            </a>
+                        </button>
+                        <button type="submit">
+                            <a href="#">
+                                <i class="fa-solid fa-bell">
+                                </i>
+                                Thông báo
+                            </a>
+                        </button>
+                        <button type="submit">
+                            <a href="#">
+                                <i class="fa-sharp fa-regular fa-comment">
+                                </i>
+                                Phản hồi
+                            </a>
+                        </button>
                     </div>
                 </c:when>
                 <c:otherwise>
-                    <img src="https://nemtv.vn/wp-content/uploads/2019/03/kinh-nghiem-du-lich-sai-gon-00.jpg" alt="" class="img-fluid">
-                    <img src="https://nemtv.vn/wp-content/uploads/2019/03/kinh-nghiem-du-lich-lai-chau-nemtv.jpg" alt="" class="img-fluid my-5">
-                    <img src="https://nemtv.vn/wp-content/uploads/2019/04/kinh-nghiem-du-lich-bac-kan-nemtv.jpg"  class="img-fluid" alt="">
+                    <img src="https://nemtv.vn/wp-content/uploads/2019/03/kinh-nghiem-du-lich-sai-gon-00.jpg" alt=""
+                         class="img-fluid">
+                    <img src="https://nemtv.vn/wp-content/uploads/2019/03/kinh-nghiem-du-lich-lai-chau-nemtv.jpg" alt=""
+                         class="img-fluid my-5">
+                    <img src="https://nemtv.vn/wp-content/uploads/2019/04/kinh-nghiem-du-lich-bac-kan-nemtv.jpg"
+                         class="img-fluid" alt="">
                 </c:otherwise>
             </c:choose>
         </div>
@@ -53,7 +74,8 @@
                     </c:when>
                     <c:otherwise>
                         <c:forEach var="post" items="${newPostList}">
-                            <li style="list-style: none; border-radius: 10px" class="row border bounded-1 my-2 position-relative" style="border-radius: 10px;">
+                            <li style="list-style: none; border-radius: 10px"
+                                class="row border bounded-1 my-2 position-relative" style="border-radius: 10px;">
                                 <div class="col-8" id="demo" style=" font-size: 18px">
                                     <div class="p-3" style="margin-top: 21px;">
                                         <h2 class="title">
@@ -101,7 +123,8 @@
                                 float: right;
                                 top: 51px;
                                 right: 0;">
-                                    <img src="${post.getImage()}" class="img-fluid" alt="" style=" width: 215px; height: 122px">
+                                    <img src="${post.getImage()}" class="img-fluid" alt=""
+                                         style=" width: 215px; height: 122px">
                                 </div>
                             </li>
 
@@ -127,9 +150,12 @@
             </div>
         </div>
         <div class="right-content col-3">
-            <img src="https://nemtv.vn/wp-content/uploads/2019/03/kinh-nghiem-du-lich-son-la-2-nemtv.jpg"  class="img-fluid" alt="">
-            <img src="https://nemtv.vn/wp-content/uploads/2019/04/kinh-nghiem-du-lich-bac-kan-nemtv.jpg"  class="img-fluid my-5" alt="">
-            <img src="https://nemtv.vn/wp-content/uploads/2019/03/kinh-nghiem-du-lich-lai-chau-nemtv.jpg" alt="" class="img-fluid">
+            <img src="https://nemtv.vn/wp-content/uploads/2019/03/kinh-nghiem-du-lich-son-la-2-nemtv.jpg"
+                 class="img-fluid" alt="">
+            <img src="https://nemtv.vn/wp-content/uploads/2019/04/kinh-nghiem-du-lich-bac-kan-nemtv.jpg"
+                 class="img-fluid my-5" alt="">
+            <img src="https://nemtv.vn/wp-content/uploads/2019/03/kinh-nghiem-du-lich-lai-chau-nemtv.jpg" alt=""
+                 class="img-fluid">
         </div>
 
     </div>
