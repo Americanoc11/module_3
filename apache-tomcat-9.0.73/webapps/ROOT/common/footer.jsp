@@ -1,36 +1,30 @@
 <%--
   Created by IntelliJ IDEA.
-  User: Vĩ Trần
-  Date: 4/18/2023
-  Time: 10:05 AM
+  User: ADMIN
+  Date: 5/23/2023
+  Time: 6:20 PM
   To change this template use File | Settings | File Templates.
 --%>
-<%@ page contentType="text/html" pageEncoding="UTF-8" language="java" %>
-<div class="footer mt-5">
-    <section class="link">
-        <div class="logos">
-            <a href="#"><i class="fab fa-facebook-square fa-2x logo"></i></a>
-            <a href="#"><i class="fab fa-instagram fa-2x logo"></i></a>
-            <a href="#"><i class="fab fa-twitter fa-2x logo"></i></a>
-            <a href="#"><i class="fab fa-youtube fa-2x logo"></i></a>
-        </div>
-        <div class="sub-links">
-            <ul>
-                <li><a href="#">Introduce</a></li>
-                <li><a href="#">Developers</a></li>
-                <li><a href="#">Cookie</a></li>
-                <li><a href="#">Jobs</a></li>
-                <li><a href="#">Terms</a></li>
-                <li><a href="#">Privacy</a></li>
-                <li><a href="#">Help Center</a></li>
-                <li><a href="#">Contact Us</a></li>
-            </ul>
-        </div>
-    </section>
-    <!-- END OF LINKS -->
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<html>
+<head>
+    <title>Title</title>
+</head>
+<body>
 
-    <!-- FOOTER -->
-    <footer>
-        <p>CodeGym@2018. All rights reserved.</p>
-    </footer>
-</div>
+<!-- Footer -->
+<footer class="text-center text-lg-start bg-light text-muted" style=" bottom: 0;right: 0;left: 0">
+    <!-- Section: Social media -->
+
+    <!-- Section: Links  -->
+
+    <!-- Copyright -->
+    <div class="text-dark text-center p-4" style="background-color: orange;">
+        © 2023 Copyright:
+        <a class="text-dark fw-bold" href="/index.jsp">ig1store.com</a>
+    </div>
+    <!-- Copyright -->
+</footer>
+<!-- Footer -->
+</body>
+</html>

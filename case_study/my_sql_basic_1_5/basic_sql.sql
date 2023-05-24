@@ -171,7 +171,7 @@ having sum(ctd.amount) >10;
 -- 14.	Hiển thị thông tin tất cả các Dịch vụ đi kèm chỉ mới được sử dụng một lần
 -- duy nhất. Thông tin hiển thị bao gồm ma_hop_dong, ten_loai_dich_vu, ten_dich_vu_di_kem,
 -- so_lan_su_dung (được tính dựa trên việc count các ma_dich_vu_di_kem).
-SET sql_mode = 'ONLY_FULL_GROUP_BY';
+
  select ct.id_contract,accs.name_service,ts.name_type_service
  from accompanying_services accs
  join contract_details ctd
@@ -220,10 +220,20 @@ left join partscode_employee pe
 on pe.id_partscode=e.id_partscode
 left join contract ct
 on ct.id_employee=e.id_employee;
+
 -- xóa vật lý
 delete from employee
-where id_employee=4; -- (4,5,6,8,9)
+where id_employee in(
+select id_employee from(
+select e.id_employee,ct.id_contract
+from employee e
+left join contract ct
+on ct.id_employee=e.id_employee
+where ct.id_contract is null
+)x
+);
 
+select * from employee;
 -- xóa logic
 alter table employee 
 add is_delete tinyint(1) default'1';
@@ -292,9 +302,14 @@ where id_customer in (select id_customer
 						) x
 );
 -- 19.	Cập nhật giá cho các dịch vụ đi kèm được sử dụng trên 10 lần trong năm 2020 lên gấp đôi.
-update accompanying_services
-set price=
-select accs.*,ifnull(sum(ctd.amount),0)
+
+select
+accs.id_service as 'id',
+accs.name_service as 'name',
+accs.price*2 as 'price',
+accs.unit,
+accs.condition_service,
+ifnull(sum(ctd.amount),0)
 from accompanying_services accs
 join contract_details ctd
 on ctd.id_service=accs.id_service
@@ -304,4 +319,11 @@ where year(ct.date_start_contract)=2020
 group by accs.id_service
 having sum(ctd.amount)>=10;
 -- 20.	Hiển thị thông tin của tất cả các nhân viên và khách hàng có trong hệ thống, thông tin hiển thị bao gồm id (ma_nhan_vien, ma_khach_hang), ho_ten, email, so_dien_thoai, ngay_sinh, dia_chi.
- 
+ select id_customer,name_customer,email,date_of_birth,address
+ from customer
+ union all
+  select id_employee ,name_employee,email,date_of_birth,address
+  from employee;
+
+select * from customer;
+select * from employee;
