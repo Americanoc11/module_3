@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="32103c94-0f1f-4e71-915e-5b028c9e85a1" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.73/webapps/ROOT/WEB-INF/classes/case_m3/ozone/controller/AdminServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.73/webapps/ROOT/WEB-INF/classes/case_m3/ozone/controller/HomeServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.73/webapps/ROOT/WEB-INF/classes/case_m3/ozone/controller/LoginServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.73/webapps/ROOT/WEB-INF/classes/case_m3/ozone/controller/LogoutServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.73/webapps/ROOT/WEB-INF/classes/case_m3/ozone/controller/RegisterServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.73/webapps/ROOT/WEB-INF/classes/case_m3/ozone/model/AccountUser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.73/webapps/ROOT/WEB-INF/classes/case_m3/ozone/model/Comment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.73/webapps/ROOT/WEB-INF/classes/case_m3/ozone/model/Post.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.73/webapps/ROOT/WEB-INF/classes/case_m3/ozone/model/PostDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.73/webapps/ROOT/WEB-INF/classes/case_m3/ozone/repository/DBConnnection/DBConnection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.73/webapps/ROOT/WEB-INF/classes/case_m3/ozone/repository/adminRepository/AdminRepositoryImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.73/webapps/ROOT/WEB-INF/classes/case_m3/ozone/repository/adminRepository/IAdminRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.73/webapps/ROOT/WEB-INF/classes/case_m3/ozone/repository/homeRepository/HomeRepositoryImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.73/webapps/ROOT/WEB-INF/classes/case_m3/ozone/repository/homeRepository/IHomeRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.73/webapps/ROOT/WEB-INF/classes/case_m3/ozone/repository/loginRepository/ILoginRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.73/webapps/ROOT/WEB-INF/classes/case_m3/ozone/repository/loginRepository/LoginRepositoryImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.73/webapps/ROOT/WEB-INF/classes/case_m3/ozone/service/adminService/AdminServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.73/webapps/ROOT/WEB-INF/classes/case_m3/ozone/service/adminService/IAdminService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.73/webapps/ROOT/WEB-INF/classes/case_m3/ozone/service/homeService/HomeServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.73/webapps/ROOT/WEB-INF/classes/case_m3/ozone/service/homeService/IHomeService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.73/webapps/ROOT/WEB-INF/classes/case_m3/ozone/service/loginService/ILoginService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.73/webapps/ROOT/WEB-INF/classes/case_m3/ozone/service/loginService/LoginServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.73/webapps/ROOT/WEB-INF/lib/mysql-connector-j-8.0.32.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.73/webapps/ROOT/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../apache-tomcat-9.0.73/webapps/ROOT/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.73/webapps/ROOT/admin/formUser.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.73/webapps/ROOT/admin/listUser.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.73/webapps/ROOT/admin/update.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.73/webapps/ROOT/assets/css/form-login.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.73/webapps/ROOT/assets/css/form-register.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.73/webapps/ROOT/assets/css/home.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.73/webapps/ROOT/assets/css/pagination.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.73/webapps/ROOT/assets/images/kinh-nghiem-du-lich-bac-kan-nemtv.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.73/webapps/ROOT/assets/images/kinh-nghiem-du-lich-lai-chau-nemtv.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.73/webapps/ROOT/assets/images/kinh-nghiem-du-lich-sai-gon-00.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.73/webapps/ROOT/assets/images/kinh-nghiem-du-lich-son-la-2-nemtv.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.73/webapps/ROOT/assets/images/logo.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.73/webapps/ROOT/assets/images/msg5069082961-84388.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.73/webapps/ROOT/assets/js/pagination.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.73/webapps/ROOT/common/footer.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.73/webapps/ROOT/common/header.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.73/webapps/ROOT/common/home.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.73/webapps/ROOT/home/createPost.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.73/webapps/ROOT/home/home.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.73/webapps/ROOT/home/updatePost.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.73/webapps/ROOT/home/view.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.73/webapps/ROOT/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../apache-tomcat-9.0.73/webapps/ROOT/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.73/webapps/ROOT/login/form-login.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.73/webapps/ROOT/post/detail.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.73/webapps/ROOT/post/detail.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.73/webapps/ROOT/register/register.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_sql_basic_1_5/basic_sql.sql" beforeDir="false" afterPath="$PROJECT_DIR$/my_sql_basic_1_5/basic_sql.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ozone.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../ozone.sql" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2QBwyg1M42IsJvhAetoVUr7ytZI" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/codegym/module_3/case_study",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="32103c94-0f1f-4e71-915e-5b028c9e85a1" name="Changes" comment="" />
+      <created>1684840538347</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1684840538347</updated>
+      <workItem from="1684840539479" duration="30000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

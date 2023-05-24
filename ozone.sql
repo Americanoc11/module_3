@@ -61,7 +61,11 @@ values ("totrinh", "123456", "soljin97@gmail.com", 0, 1),
        ("viethoang", "123456", "nvhoang020100@gmail.com", 1, 0);
 
 insert into post(date_post, title_post, content_post, id_account)
-    value ("2023-04-14","Có nên đi du lịch nước ngoài vào thời gian Covid-19?", "Tình hình mở cửa biên giới của các quốc gia hiện nay
+    value 
+    (
+    "2023-04-14"
+    ,"Có nên đi du lịch nước ngoài vào thời gian Covid-19?"
+    , "Tình hình mở cửa biên giới của các quốc gia hiện nay
 Có thể thấy thằng hiện nay nhiều quốc gia đã thay đổi các chính sách phòng chống dịch bệnh Covid-19 của mình để mở cửa biên giới, nhiều quốc gia mở cửa hoàn toàn như thời điểm trước dịch, nhiều quốc gia thì mở cửa nhưng vẫn còn giới hạn một số quy định, nhiều quốc gia vẫn đóng cửa với khách du lịch. Điều đó có thể thấy rằng đánh giá về dịch bệnh Covid-19 của mỗi quốc gia là khác nhau.
 Có nên đi du lịch nước ngoài vào lúc này
 Việc các quốc gia mở cửa, việc Việt Nam cũng mở cửa biên giới cho du khách nhập cảnh (chúng ta cũng cần quan tâm bởi khi du lịch nước ngoài về chúng ta phải nắm được chính sách nhập cảnh của Việt Nam) điều đó có thể nói du khách có thể đi du lịch nước ngoài vào lúc này được.
@@ -92,8 +96,10 @@ Mua bảo hiểm du lịch khi đi nước ngoài trong thời gian này là vi�
 Bảo hiểm là để đề phòng rủi ro vì vậy dù có dịch Covid-19 hay không du khách cũng nên mua bảo hiểm khi đi du lịch.
 Khi về lại Việt Nam
 Việt Nam quy định du khách khi nhập cảnh phải có kết quả xét nghiệm Covid-19 âm tính vì vậy bạn cần lưu ý tìm dịch vụ test được công nhận để có giấy xác nhận khi về Việt Nam.
-Trên đây là những chia sẻ liên quan đến vấn đề “Có nên đi du lịch nước ngoài vào thời gian Covid-19”, du khách cần lưu ý tìm hiểu kỹ thông tin điểm đến mà mình muốn đi du lịch để tránh những sự cố đáng tiếc trên chuyến đi.", 1),
-("2023-04-13", "Kinh nghiệm du lịch Đà Nẵng sau dịch không thể bỏ qua", "Là một thành phố trực thuộc trung ương nằm tại miền Trung Việt Nam, nơi giao nhau giữa núi non và biển cả, Đà Nẵng được xem là một trong những địa điểm du
+Trên đây là những chia sẻ liên quan đến vấn đề “Có nên đi du lịch nước ngoài vào thời gian Covid-19”, du khách cần lưu ý tìm hiểu kỹ thông tin điểm đến mà mình muốn đi du lịch để tránh những sự cố đáng tiếc trên chuyến đi."
+, 1),
+("2023-04-13",
+ "Kinh nghiệm du lịch Đà Nẵng sau dịch không thể bỏ qua", "Là một thành phố trực thuộc trung ương nằm tại miền Trung Việt Nam, nơi giao nhau giữa núi non và biển cả, Đà Nẵng được xem là một trong những địa điểm du
 lịch thu hút nhiều khách nhất cả nước. Du lịch Đà Nẵng chưa bao giờ là hết hot trong những năm vừa qua và chắc chắn rằng sau khi hết dịch thì Đà Nẵng sẽ quay trở lại thời đại huy hoàng.
 Nếu bạn có ý định chọn Đà Nẵng làm điểm đến để thư giãn và hít thở không khí của biển cả sau một thời gian dài phải ở nhà nghỉ dịch nhưng bạn lại chưa có kinh nghiệm du lịch đến thành phố đáng sống nhất cả nước thì hãy xem ngay bài viết dưới đây, một bài viết về những món ăn cũng như khách sạn Đà Nẵng. Chắc chắn bạn sẽ được giúp ích rất nhiều!
 TOP 3 món ăn đặc sản Đà Nẵng nhất định không được bỏ lỡ
@@ -119,7 +125,9 @@ Bên cạnh đó một điểm cộng nữa cho khách sạn Đà Nẵng đẳng
 So với hai khách sạn Đà Nẵng được nêu đến bên trên, khách sạn Sala Đà Nẵng là một khách sạn ở Đà Nẵng thuộc đẳng cấp 4 sao tuy nhiên khách sạn Đà Nẵng này vẫn làm hài lòng khá nhiều khách hàng bởi tọa lạc bên bãi biển Mỹ Khê nổi tiếng, cách sông Hàn và trung tâm thành phố Đà Nẵng chỉ từ 2km. Khách sạn cung cấp 162 phòng nghỉ với tầm nhìn ra biển và trung tâm thành phố.
 Nghỉ dưỡng tại khách sạn Sala Đà Nẵng, bạn sẽ được trải nghiệm những dịch vụ đẳng cấp quốc tế với 02 nhà hàng phục vụ đầy đủ các bữa ăn hàng ngày và ẩm thực Nhật Bản. Bữa sáng mang đậm nét ẩm thực Việt kết hợp với ẩm thực Á – Âu đa dạng chắc chắn sẽ mang đến cho bạn một bữa sáng tràn đầy năng lượng trước khi đi tham quan những cảnh đẹp tại Đà Nẵng.
 Vừa rồi là tổng hợp những tổng hợp hữu hiệu về các món ăn độc đáo cũng như các khách sạn ở Đà Nẵng có chất lượng cực kỳ đẳng cấp. Hi vọng rằng với bài viết này bạn sẽ không còn gặp những trở ngại về việc tìm món ăn ngon, khách sạn nào là khách sạn Đà Nẵng chất lượng tốt trong những dự định về chuyến du lịch sau dịch nữa nhé.", 1),
-("2023-04-15", "Top 5 tour du lịch 1 ngày khởi hành từ Thành Phố Hồ Chí Minh", "Với vị trí khá thuận lợi, thành phố Hồ Chí Minh có thể kết nối với nhiều tuyến du lịch ở các vùng lân cận như Củ Chi, Tây Ninh, Cần Giờ, Miền Tây, Vũng Tàu, Phan Thiết,… Khi du lịch đến thành phố Hồ Chí Minh du khách sẽ có cơ hội được tham quan trải nghiệm nhiều điểm đến. Trong bài viết này người viết xin chia sẻ top 5 tour du lịch 1 ngày khởi hành từ thành phố Hồ Chí Minh được nhiều du khách yêu thích và đặt nhiều nhất.
+("2023-04-15"
+, "Top 5 tour du lịch 1 ngày khởi hành từ Thành Phố Hồ Chí Minh"
+, "Với vị trí khá thuận lợi, thành phố Hồ Chí Minh có thể kết nối với nhiều tuyến du lịch ở các vùng lân cận như Củ Chi, Tây Ninh, Cần Giờ, Miền Tây, Vũng Tàu, Phan Thiết,… Khi du lịch đến thành phố Hồ Chí Minh du khách sẽ có cơ hội được tham quan trải nghiệm nhiều điểm đến. Trong bài viết này người viết xin chia sẻ top 5 tour du lịch 1 ngày khởi hành từ thành phố Hồ Chí Minh được nhiều du khách yêu thích và đặt nhiều nhất.
 Tour miền Tây 1 ngày: Mỹ Tho – Bến Tre
 Khởi hành: hàng ngày
 Các hoạt động: chùa Vĩnh Tràng, cồn Quy, nghe đờn ca tài tử, thưởng thức trà mật ong, vườn trái cây, đi đò chèo, đi xuồng máy,…
@@ -135,8 +143,11 @@ Tour tham quan tuyến địa đạo Củ Chi và toà thánh Cao Đài (Tây Ni
 Tour du lịch Cần Giờ 1 ngày
 Khởi hành: Hàng ngày
 Các hoạt động: Đảo Khỉ, Rừng Sát, Chợ địa phương,…
-Tour du lịch Cần Giờ 1 ngày khởi hành lúc 8h sáng, về tới lúc 18h sẽ đưa du khách đến với khu dự trữ sinh quyển Cần Giờ với các điểm tham quan hấp dẫn như Đảo Khỉ, Rừng Sát và ghé tham quan chợ địa phương. Giá tour Cần Giờ 1 ngày là 650.000 đ/người.", 1),
-("2023-04-16", "Kinh nghiệm và những điều lưu ý khi đặt tour Đài Loan", "Hiện nay tour du lịch Đài Loan khởi hành từ Việt Nam đang được nhiều công ty du lịch chào bán với nhiều tuyến tour khác nhau cũng như giá cả khác nhau. Giá tour tốt, chính sách visa tiện lợi, mua tour dễ dàng,… nên nhiều du khách quyết định rất nhanh tuy nhiên thực tế để có những trải nghiệm tốt nhất cũng như tìm được tour đúng như cầu du khách cần lưu ý thêm một số vấn đề khi đặt tour đi Đài Loan.
+Tour du lịch Cần Giờ 1 ngày khởi hành lúc 8h sáng, về tới lúc 18h sẽ đưa du khách đến với khu dự trữ sinh quyển Cần Giờ với các điểm tham quan hấp dẫn như Đảo Khỉ, Rừng Sát và ghé tham quan chợ địa phương. Giá tour Cần Giờ 1 ngày là 650.000 đ/người."
+, 1),
+("2023-04-16"
+, "Kinh nghiệm và những điều lưu ý khi đặt tour Đài Loan"
+, "Hiện nay tour du lịch Đài Loan khởi hành từ Việt Nam đang được nhiều công ty du lịch chào bán với nhiều tuyến tour khác nhau cũng như giá cả khác nhau. Giá tour tốt, chính sách visa tiện lợi, mua tour dễ dàng,… nên nhiều du khách quyết định rất nhanh tuy nhiên thực tế để có những trải nghiệm tốt nhất cũng như tìm được tour đúng như cầu du khách cần lưu ý thêm một số vấn đề khi đặt tour đi Đài Loan.
 Thông thường nhiều du khách chỉ quan tâm tới tên tour là Đài Loan và giá tour nên xảy ra một số vấn đề như: tour đi hành trình không như mong muốn, thời gian đi mệt,… Dưới đây là những ưu ý du khách cần biết khi đặt tour Đài Loan.
 Công ty tổ chức có giấy phép kinh doanh lữ hành quốc tế hay không?
 Một công ty du lịch muốn bán và tổ chức tour nước ngoài phải có giấy phép lữ hành quốc tế do Tổng cục du lịch cấp (bên cạnh giấy phép kinh doanh của công ty), khi mua tour nếu thấy lo lắng du khách có thể đề nghị xem giấy phép kinh doanh lữ hành quốc tế của công ty đó trước khi mua tour.
@@ -159,8 +170,11 @@ Thông thường giá tour được công bố bao gồm tất cả các dịch 
 Các chi phí về visa nếu người đi mang quốc tịch nước ngoài (gồm visa nhập cảnh Đài Loan, visa tái nhập Việt Nam), chi phí phòng đơn,… cũng không bao gồm trong giá tour.
 Visa Đài Loan khi đi theo tour:
 Visa làm cho du khách khi đi tour Đài Loan phổ biến là visa quan hồng, thủ tục khá đơn giản: chỉ cần ảnh và hộ chiếu, một số trường hợp du khách sẽ được yêu cầu xác thực về tài chính. Nếu du khách có visa của các nước tiên tiến như Mỹ, Châu Âu, Úc, Nhật Bản, Hàn Quốc,…thì công ty du lịch sẽ làm e-visa cho du khách. Nếu du khách muốn có visa dán như thông thường thì phải làm hồ sơ riêng với nhiều thủ tục hơn và tốn thêm phí, điều này nếu đi theo tour thì không cần thiết lắm.
-Về cơ bản du khách chỉ nộp hồ sơ theo tour, việc còn lại thì bên công ty du lịch sẽ làm cho du khách.", 1),
-("2023-04-17", "Kinh nghiệm: Những thông tin cần biết khi đi du lịch Châu Âu", "Du khách Việt Nam đang có xu hướng đi du lịch Châu Âu ngày một nhiều hơn, nhiều người lựa chọn đi theo tour trọn gói để không phải chuẩn bị quá nhiều, nhiều người lại chọn đi tự túc để có thể chủ động trong phần lịch trình của mình hơn,… Dù là đi tour hay đi tự túc du khách cũng cần nắm được những thông tin cần biết trước khi đi châu Âu hay đơn giản là trước khi lên kế hoạch đi Châu Âu.
+Về cơ bản du khách chỉ nộp hồ sơ theo tour, việc còn lại thì bên công ty du lịch sẽ làm cho du khách."
+, 1),
+("2023-04-17"
+, "Kinh nghiệm: Những thông tin cần biết khi đi du lịch Châu Âu"
+, "Du khách Việt Nam đang có xu hướng đi du lịch Châu Âu ngày một nhiều hơn, nhiều người lựa chọn đi theo tour trọn gói để không phải chuẩn bị quá nhiều, nhiều người lại chọn đi tự túc để có thể chủ động trong phần lịch trình của mình hơn,… Dù là đi tour hay đi tự túc du khách cũng cần nắm được những thông tin cần biết trước khi đi châu Âu hay đơn giản là trước khi lên kế hoạch đi Châu Âu.
 Visa
 Nhắc tới visa Châu Âu nhiều du khách nghĩ tới visa schengen nhưng thực tế không phải cứ đi châu Âu là làm visa schengen mà chỉ đi nước nào trong khu vực schengen thì mới làm visa schengen, còn lại nếu đi đến quốc gia châu Âu không thuộc khu vực schengen thì phải làm visa của nước đó theo quy định. Ví dụ: đi Nga phải làm visa Nga, đi Anh phải làm visa Anh,…
 Ngôn ngữ
