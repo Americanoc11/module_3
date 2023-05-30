@@ -9,6 +9,12 @@ CREATE TABLE account_users(
     user_name VARCHAR(50) UNIQUE NOT NULL,
     `password` VARCHAR(50) NOT NULL
 );
+create table tai_khoan(
+ma_tai_khoan int primary key auto_increment,
+ten_tai_khoan varchar(100) unique not null,
+mat_khau varchar(50) not null
+);
+
 CREATE TABLE users_role (
 	role_id INT,
     account_id INT,
