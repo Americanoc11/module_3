@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="32103c94-0f1f-4e71-915e-5b028c9e85a1" name="Changes" comment="">
+    <list default="true" id="34d8da97-55c7-4249-8482-4883963378d5" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/../build_view_db/view/home/home.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../build_view_db/view/login/form-login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.73/webapps/ROOT/WEB-INF/classes/com/example/demo2/HelloServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.73/webapps/ROOT/common/footer.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.73/webapps/ROOT/common/header.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.73/webapps/ROOT/common/footer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../apache-tomcat-9.0.73/webapps/ROOT/common/footer.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.73/webapps/ROOT/common/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../apache-tomcat-9.0.73/webapps/ROOT/common/header.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.73/webapps/ROOT/css/Screenshot 2023-05-23 192312.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.73/webapps/ROOT/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../apache-tomcat-9.0.73/webapps/ROOT/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ig.sql" beforeDir="false" afterPath="$PROJECT_DIR$/ig.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case_study/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../case_study/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case_study/ig.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../case_study/ig.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ss8/bai_tap/building_landing_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ss8/bai_tap/building_landing_page.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ss8/bai_tap/gallery_bacsic_bootstrap.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ss8/bai_tap/gallery_bacsic_bootstrap.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ss8/bai_tap/landing_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ss8/bai_tap/landing_page.html" afterDir="false" />
@@ -23,31 +23,29 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="2QBwyg1M42IsJvhAetoVUr7ytZI" />
+  <component name="ProjectId" id="2QPkLpPxCUIthNqP7uNMFk2ASPI" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/codegym/module_3/case_study&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/codegym/module_3/ss12/bai_tap/user-management",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="32103c94-0f1f-4e71-915e-5b028c9e85a1" name="Changes" comment="" />
-      <created>1684840538347</created>
+      <changelist id="34d8da97-55c7-4249-8482-4883963378d5" name="Changes" comment="" />
+      <created>1685262550840</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1684840538347</updated>
-      <workItem from="1684840539479" duration="30000" />
-      <workItem from="1685165492758" duration="64000" />
-      <workItem from="1685246341080" duration="21000" />
+      <updated>1685262550840</updated>
+      <workItem from="1685262551985" duration="14000" />
     </task>
     <servers />
   </component>

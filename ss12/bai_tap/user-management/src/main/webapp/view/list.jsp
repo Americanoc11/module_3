@@ -27,7 +27,7 @@
     </div>
 </div>
 <div class="row">
-    <div class="col-6 m-3">
+    <div class="col-6 mb-3">
         <button type="submit" class="btn btn-primary"
                 onclick="window.location.href='/user?action=create'">
             Create new User
@@ -37,7 +37,7 @@
             User List
         </button>
     </div>
-    <div class="col-6 m-3">
+    <div class="col-6 mb-3">
         <form>
             <input type="hidden" name="action" value="search">
             <talbe>
