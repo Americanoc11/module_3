@@ -156,4 +156,19 @@ value
 ('duc','duc123'),
 ('hai','hai123');
 select * from tai_khoan;
+insert into nguoi_dung_role(ma_roles,ma_tai_khoan)
+value 	(1,1),
+		(3,2),
+        (3,3),
+        (3,4),
+        (3,5);
+select * from nguoi_dung_role;
+select * from roles;
 
+select tk.ma_tai_khoan,tk.ten_tai_khoan,r.ten_roles
+from tai_khoan tk
+join nguoi_dung_role ndr
+on ndr.ma_tai_khoan=tk.ma_tai_khoan
+join roles r
+on	r.ma_roles=ndr.ma_roles
+where tk.ma_tai_khoan=1;
