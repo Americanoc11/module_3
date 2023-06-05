@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        .container {
+            margin-top: 5%;
+        }
+
+        .body {
+            /*background-size: cover;*/
+            /*background-position-y: -80px;*/
+            font-size: 16px;
+            background-color: #ACAFB8;
+        }
+
+        .form-login {
+            max-width: 400px;
+            background-color: #272E38;
+            flex-grow: 1;
+            padding: 30px 30px 40px;
+            box-shadow: 0px 0px 17px 2px rgba(255, 255, 255, 0.8);
+        }
+
+        .form-label {
+            font-size: 25px;
+            color: #EF723A;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .form-group {
+            border-bottom: 1px solid #fff;
+            margin-top: 15px;
+            margin-bottom: 20px;
+            display: flex;
+        }
+
+        .form-group i {
+            color: #fff;
+            font-size: 14px;
+            padding-top: 5px;
+            padding-right: 10px;
+        }
+
+        .form-control {
+            background: transparent;
+            border: 0;
+            outline: 0;
+            color: #f5f5f5;
+            flex-grow: 1;
+        }
+
+        .form-control::placeholder {
+            color: #f5f5f5;
+        }
+
+        #form-submit {
+            background: transparent;
+            border: 1px solid #EF723A;
+            color: #EF723A;
+            width: 100%;
+            text-transform: uppercase;
+            padding: 6px 10px;
+            transition: 0.25s ease-in-out;
+            margin-top: 30px;
+        }
+
+        .form-submit:hover {
+            border: 1px solid #54a0ff;
+        }
+    </style>
+    <link rel="stylesheet" href="../css/bootstrap.css">
+</head>
+<body class="body">
+<div class="container">
+    <div class="row w-100">
+        <div class="col-4"></div>
+        <div class="col-4">
+            <form action="/login" method="post" class="mt-5 form-login">
+                <div id="signup_div_wrapper">
+                    <!--                        <img class="img-fluid mx-auto d-block mb-3"-->
+                    <!--                             src="https://themes.getbootstrap.com/wp-content/themes/bootstrap-marketplace/assets/images/elements/bootstrap-logo.svg"-->
+                    <!--                             alt="">-->
+                    <img class="img-fluid mx-auto d-block mb-3" src="Screenshot%202023-06-03%20221409.png"
+                    />
+                    <h1 class="mb-1 text-center" style="color: #EF723A">Sign up</h1>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Email address</label>
+                    <input type="text" class="form-control" id="exampleInputEmail1"
+                           aria-describedby="emailHelp">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1" style="color:#EF723A ">Check me out</label>
+                </div>
+                <button type="submit" class="btn btn-outline-light form-submit" id="form-submit">Submit</button>
+            </form>
+        </div>
+        <div class="col-4"></div>
+    </div>
+</div>
+
+</body>
+</html>
